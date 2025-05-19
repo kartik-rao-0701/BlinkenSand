@@ -46,7 +46,7 @@ BlinkenSand/
 
 ````
 
----
+----
 
 ## Tools Used
 
@@ -59,11 +59,7 @@ BlinkenSand/
 | Diagrams       | **Draw.io**, **Inkscape**                             |
 | PCB/Board sim  | **KiCad**, **LibrePCB**                               |
 
----
-
-iverilog -o framebuffer_tb framebuffer_tb.v ../rtl/framebuffer.v
-vvp framebuffer_tb
-gtkwave dump.vcd
+----
 
 ## Philosophy
 
@@ -74,20 +70,10 @@ No legacy stacks. No middleware. No “hello world” excuses.
 * From ideas to waveforms
 * From sand to light
 
----
-
-## License
-
-This project is licensed under the **CERN-OHL-P v2.0** license.
-You are free to study, modify, and build upon it — but commercial use of the IP requires a separate license from BlinkenBytes.
-
-See `LICENSE` for details.
-
----
 
 ## Author
 
-Made with grit and glow by **Kartik / BlinkenBytes**
+Made with grit and glow by **Kartik**
 If you want to license BlinkenSand for commercial use, contact me via GitHub or LinkedIn.
 
 ---
@@ -125,7 +111,7 @@ No bloat, no noise — just pure logic wired with intention. <br>
 If it lights up, it’s not just a display. <br>
 It’s proof that I was here. <br><br>
 
-— <b>Kartik / BlinkenBytes</b><br>
+— <b>Kartik</b><br>
 <code>Bare hands. Bare Verilog. Bare soul.</code>
 </i>
 
